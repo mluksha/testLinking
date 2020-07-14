@@ -1,0 +1,39 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+  <style>
+    .bar {
+      margin: 50px;
+      padding: 20px;
+    }
+    .link {
+      padding: 20px;
+      margin: 10px;
+      background-color: #EEEEEE;
+      display: block;
+    }
+    </style>
+</head>
+
+<body>
+  <div class="bar">
+    <a class="link" href="collaborate://tabeebwebsitedev-demo.azurewebsites.net/#/register?subdomain=1218team&email=nwork4%2B10@mail.ru&token=NXYxeVFqZ24yRWdBd01aNDBSNEJBQ2w5SUtCZjg5Sk5yeFVEbnI0U0dsZz0%3D">collaborate link</a>
+    <a class="link" href="https://tabeebwebsitedev-demo.azurewebsites.net/#/register?subdomain=1218team&email=nwork4%2B10@mail.ru&token=NXYxeVFqZ24yRWdBd01aNDBSNEJBQ2w5SUtCZjg5Sk5yeFVEbnI0U0dsZz0%3D">https link</a>
+    <a id="jsLink" href="#" class="link">js link</a>
+  </div>
+  <script type="text/javascript">
+  let jsLink = document.getElementById('jsLink');
+  jsLink.addEventListener("click", evt => {
+    evt.preventDefault();
+
+    window.location.href = "collaborate://tabeebwebsitedev-demo.azurewebsites.net/#/register?subdomain=1218team&email=nwork4%2B10@mail.ru&token=NXYxeVFqZ24yRWdBd01aNDBSNEJBQ2w5SUtCZjg5Sk5yeFVEbnI0U0dsZz0%3D";
+  });
+  </script>
+</body>
+</html>
