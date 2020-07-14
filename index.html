@@ -23,9 +23,13 @@
 
 <body>
   <div class="bar">
-    <a class="link" href="collaborate://tabeebwebsitedev-demo.azurewebsites.net/#/register?subdomain=1218team&email=nwork4%2B10@mail.ru&token=NXYxeVFqZ24yRWdBd01aNDBSNEJBQ2w5SUtCZjg5Sk5yeFVEbnI0U0dsZz0%3D">collaborate link</a>
-    <a class="link" href="https://tabeebwebsitedev-demo.azurewebsites.net/#/register?subdomain=1218team&email=nwork4%2B10@mail.ru&token=NXYxeVFqZ24yRWdBd01aNDBSNEJBQ2w5SUtCZjg5Sk5yeFVEbnI0U0dsZz0%3D">https link</a>
-    <a id="jsLink" href="#" class="link">js link</a>
+    <a class="link" href="collaborate://tabeebwebsitedev-demo.azurewebsites.net/#/register?subdomain=1218team&email=nwork4%2B10@mail.ru&token=NXYxeVFqZ24yRWdBd01aNDBSNEJBQ2w5SUtCZjg5Sk5yeFVEbnI0U0dsZz0%3D">collaborate tabeebwebsitedev-demo link</a>
+    <a class="link" href="https://tabeebwebsitedev-demo.azurewebsites.net/#/register?subdomain=1218team&email=nwork4%2B10@mail.ru&token=NXYxeVFqZ24yRWdBd01aNDBSNEJBQ2w5SUtCZjg5Sk5yeFVEbnI0U0dsZz0%3D">https tabeebwebsitedev-demo link</a>
+    <a id="jsLink" href="#" class="link">js tabeebwebsitedev-demo link</a>
+
+    <a class="link" href="collaborate://www.collaboratecenter.com//#/register?subdomain=1218team&email=nwork4%2B10@mail.ru&token=NXYxeVFqZ24yRWdBd01aNDBSNEJBQ2w5SUtCZjg5Sk5yeFVEbnI0U0dsZz0%3D">collaborate collaborate link</a>
+    <a class="link" href="https://www.collaboratecenter.com/#/register?subdomain=1218team&email=nwork4%2B10@mail.ru&token=NXYxeVFqZ24yRWdBd01aNDBSNEJBQ2w5SUtCZjg5Sk5yeFVEbnI0U0dsZz0%3D">https collaborate link</a>
+    <a id="jsLink2" href="#" class="link">js collaborate link</a>
   </div>
   <script type="text/javascript">
   let jsLink = document.getElementById('jsLink');
@@ -33,6 +37,12 @@
     evt.preventDefault();
 
     window.location.href = "collaborate://tabeebwebsitedev-demo.azurewebsites.net/#/register?subdomain=1218team&email=nwork4%2B10@mail.ru&token=NXYxeVFqZ24yRWdBd01aNDBSNEJBQ2w5SUtCZjg5Sk5yeFVEbnI0U0dsZz0%3D";
+  });
+  let jsLink2 = document.getElementById('jsLink2');
+  jsLink.addEventListener("click", evt => {
+    evt.preventDefault();
+
+    window.location.href = "collaborate://www.collaboratecenter.com/#/register?subdomain=1218team&email=nwork4%2B10@mail.ru&token=NXYxeVFqZ24yRWdBd01aNDBSNEJBQ2w5SUtCZjg5Sk5yeFVEbnI0U0dsZz0%3D";
   });
   </script>
 </body>
