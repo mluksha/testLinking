@@ -1,0 +1,26 @@
+[
+  {
+      "relation": [
+          "delegate_permission/common.handle_all_urls"
+      ],
+      "target": {
+          "namespace": "android_app",
+          "package_name": "com.talon.view",
+          "sha256_cert_fingerprints": [
+              "F4:86:7A:48:07:08:29:7A:7B:9E:9F:58:EB:A2:BA:A5:CE:6F:DB:13:C5:93:01:6B:0C:D3:7F:33:95:AA:7A:26"
+          ]
+      }
+  },
+  {
+      "relation": [
+          "delegate_permission/common.handle_all_urls"
+      ],
+      "target": {
+          "namespace": "android_app",
+          "package_name": "com.tabeeb.react",
+          "sha256_cert_fingerprints": [
+              "F4:86:7A:48:07:08:29:7A:7B:9E:9F:58:EB:A2:BA:A5:CE:6F:DB:13:C5:93:01:6B:0C:D3:7F:33:95:AA:7A:26"
+          ]
+      }
+  }
+]
