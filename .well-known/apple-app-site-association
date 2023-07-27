@@ -11,7 +11,10 @@
                   "/": "/open"
                },
                {
-                  "#": "%2Fsessions%2Fstart"
+                  "#": "start"
+               },
+               {
+                  "#": "/sessions/start"
                }
             ]
          }
