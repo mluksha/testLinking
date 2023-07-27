@@ -1,32 +1,21 @@
 {
-  "applinks":{
-     "details":[
-        {
-           "appIDs":[
-              "Q9CQP43PCR.com.talon.view",
-              "Q9CQP43PCR.com.tabeeb.react"
-           ],
-           "components":[
-              {
-                 "/":"/"
-              },
-              {
-                 "/":"/sessions/*"
-              },
-              {
-                 "/":"/whiteboard/*"
-              },
-              {
-                 "/":"/register/*"
-              },
-              {
-                 "/":"/confirm-email/*"
-              },
-              {
-                 "/":"/reset-password/*"
-              }
-           ]
-        }
-     ]
-  }
+   "applinks": {
+      "details": [
+         {
+            "appIDs": [
+               "Q9CQP43PCR.com.talon.view",
+               "Q9CQP43PCR.com.tabeeb.react"
+            ],
+            "components": [
+               {
+                  "/": "/open"
+               },
+               {
+                  "/": "/",
+                  "#": "/sessions/*"
+               }
+            ]
+         }
+      ]
+   }
 }
