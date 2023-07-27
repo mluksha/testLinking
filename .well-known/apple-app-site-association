@@ -16,7 +16,8 @@
                {
                   "#": "/sessions/start"
                }
-            ]
+            ],
+            "defaults": { "caseSensitive": false, "percentEncoded": true }
          }
       ]
    }
