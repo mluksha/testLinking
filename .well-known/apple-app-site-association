@@ -8,19 +8,18 @@
             ],
             "components": [
                {
-                  "/": "/",
-                  "#": "end",
-                  "exclude": true
+                  "/": "/open"
                },
                {
-                  "/": "/"
+                  "/": "*",
+                  "#": "start"
                },
                {
                   "/": "*",
                   "#": "/sessions/start"
                }
             ],
-            "defaults": { "caseSensitive": false }
+            "defaults": { "caseSensitive": false, "percentEncoded": false }
          }
       ]
    }
