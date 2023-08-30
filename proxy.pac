@@ -1,10 +1,4 @@
 function FindProxyForURL(url, host) {
-  if (dnsDomainIs(host, "mluksha.github.io"))
-    return "DIRECT";
-
-  if (shExpMatch(host, "*.onliner.by"))
-    return "DIRECT";
-
   if (shExpMatch(host, "*.collaborate.center"))
     return "DIRECT";
 
