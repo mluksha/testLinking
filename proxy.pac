@@ -3,7 +3,7 @@ function FindProxyForURL(url, host) {
     return "DIRECT";
 
   // If the hostname matches, send direct. 
-  if (dnsDomainIs(host, "onliner.by"))
+  if (shExpMatch(host, "*.onliner.by"))
     return "DIRECT";
 
   // DEFAULT RULE: All other traffic, use below proxies, in fail-over order. 
